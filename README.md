@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+BANK OF FLATIRON.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bank of Flatiron App" This is an application built on React that displays a list of your recent bank transactions, among other details.
 
-## Available Scripts
+COMPOSITION: Built on REACT.
 
-In the project directory, you can run:
+Reviews,comments and advise are most welcome.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+GENERAL GUIDELINES.
 
-### `npm test`
+Learning Goals
+Implement a mini web app to practice on components, props, state, events and data fetching in react
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Requirements
+For this project, you must:
+Have a well-written README file.
+Fetch data from a local server running JSON DB server.
 
-### `npm run build`
+Project Setup & Pre-requisite Data
+In your project directory, create a db.json file and use this dataLinks to an external site. for your server DB.
+Run this command to get the backend started: json-server --watch db.json
+Test your server by visiting this route in the browser: http://localhost:8001/transactions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Core Deliverables
+As a user, I should be able to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+(i)See a table of all transactions.
+(ii)Fill out and submit the form to add a new transaction to the table
+(iii)Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bonus Deliverables
+As a user, I should be able to:
+(i)Sort transactions alphabetically by category or description.
+(ii)Delete a transaction which will remove it from the table.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author: Julius Makari
